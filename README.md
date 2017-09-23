@@ -1,6 +1,6 @@
 # Atlas-Of-Thrones
 
-An interactive "Game of Thrones" map powered by Leaflet, PostGIS, and Redis.
+An interactive "Game of Thrones" map powered by Leaflet, PostGIS, and Redis. From the brilliant blog post at https://blog.patricktriest.com/game-of-thrones-map-node-postgres-redis/
 
 #### Structure
 - `app/` - The front-end web application source.
@@ -23,7 +23,7 @@ REDIS_PORT=6379
 CORS_ORIGIN=http://localhost:8080
 ```
 
-You'll need to change the username in the DATABASE_URL entry to match your Postgres user credentials. Unless your name is "Patrick", that is, in which case it might already be fine.
+You'll need to change the username in the DATABASE_URL entry to match your Postgres user credentials.
 
 
 Run `npm run local` to start the API server on `localhost:5000`, and to build/watch/serve the frontend code from `localhost:8080`.
