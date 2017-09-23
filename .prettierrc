@@ -1,0 +1,12 @@
+{
+  "prettier_cli_path": "/usr/local/bin/prettier",
+  "node_path": "/usr/local/bin/node",
+  "auto_format_on_save": true,
+  // "parser": "flow",
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabs": false,
+  "semi": true,
+  "bracket_spacing": true,
+  "trailing_comma": "none"
+}
